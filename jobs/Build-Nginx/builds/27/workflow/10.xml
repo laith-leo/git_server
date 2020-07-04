@@ -1,0 +1,31 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.5">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.80">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.80">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=origin/dev</string>
+            <string>GIT_COMMIT=830c832acf865c4c6586b682710b36f400ccd727</string>
+            <string>GIT_PREVIOUS_COMMIT=7e75d32fa6596dbe4ffae9774f81e4d0c94a7e78</string>
+            <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT=7e75d32fa6596dbe4ffae9774f81e4d0c94a7e78</string>
+            <string>GIT_URL=https://github.com/laith-leo/nginx-compile.git</string>
+          </list>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.40">
+      <startTime>1592842548629</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

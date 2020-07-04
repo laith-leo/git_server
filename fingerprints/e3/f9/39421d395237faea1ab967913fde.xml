@@ -1,0 +1,49 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-06-19 21:42:56.825 UTC</timestamp>
+  <md5sum>e3f939421d395237faea1ab967913fde</md5sum>
+  <fileName>Credential id=2f08b1ee-fc58-4cc3-a055-9c57491c6e3c name=laith-leo/****** (GitHub username and password)</fileName>
+  <usages>
+    <entry>
+      <string>ant-test</string>
+      <ranges>1-5</ranges>
+    </entry>
+    <entry>
+      <string>cicd k8s/dependabot%2Fnpm_and_yarn%2Fnpm-6.13.4</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>Build-Nginx</string>
+      <ranges>5,8-31</ranges>
+    </entry>
+    <entry>
+      <string>Laith&apos;s stuff/test-1</string>
+      <ranges>110-113</ranges>
+    </entry>
+    <entry>
+      <string>cicd k8s/example-solution</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>cicd k8s/master</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.3.9">
+      <timestamp>1592928566614</timestamp>
+      <itemFullName>Build-Nginx</itemFullName>
+      <timestamp0>1592928462576</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.3.9">
+      <timestamp>1592930700253</timestamp>
+      <itemFullName>test-1</itemFullName>
+      <timestamp0>1592927100277</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.3.9">
+      <timestamp>1592941920251</timestamp>
+      <itemFullName>Laith&apos;s stuff/test-1</itemFullName>
+      <timestamp0>1592938320249</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

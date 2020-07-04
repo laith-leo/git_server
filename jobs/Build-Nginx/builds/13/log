@@ -1,0 +1,251 @@
+Started by user [8mha:////4P7iv7i4rw/Z/4UP7tCF39KsHYWOJPKCrHkwdvxUANzRAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgZO/dLi1CL9nNR8AIDjOH2+AAAA[0mLAITH LEO ALOBAIDY
+Obtained Jenkinsfile from git https://github.com/laith-leo/nginx-compile.git
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4FhcC+v1YqaH84xtFr+gh2l69Lo40HxF50QoQ4VsUrLiAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Cz87yqirHBWbKVw2+ItKW9vgcL8j198X9SkXglQQDFYAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4L0b7o82ZQTa8NP/bgXjCe8Vzm8eC9o3H9thUhhEb++EAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/Build-Nginx
+[8mha:////4ObgMzAJNo+R+b5VhouetqximpmVYiLNo5bc7ERVC/rdAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OjP8um8N5SqPQIGA5Ri68cQFT7ehhNMWHPYhRWQHmQnAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Gr7kZ1zerTR2gcvCrAFHiQV3SXK8dcVL6B9iLCSHNPLAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4Mhf9iNfF45OT2s3wWLqEdTyxoJkaJVuoRHyZO5CwpA+AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+using credential 2f08b1ee-fc58-4cc3-a055-9c57491c6e3c
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/laith-leo/nginx-compile.git # timeout=10
+Fetching upstream changes from https://github.com/laith-leo/nginx-compile.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub username and password
+ > git fetch --tags --force --progress -- https://github.com/laith-leo/nginx-compile.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/dev^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/dev^{commit} # timeout=10
+Checking out Revision 3818e0f3ece5c992edbbbf705cf7e6e53664b794 (refs/remotes/origin/dev)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3818e0f3ece5c992edbbbf705cf7e6e53664b794 # timeout=10
+Commit message: "Update Dockerfile-oel7"
+ > git rev-list --no-walk 3818e0f3ece5c992edbbbf705cf7e6e53664b794 # timeout=10
+[8mha:////4Hs5eoGMf4xWLywJa6dG/S3iiuefPESOJZvAluC3mw3WAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4DUb/6ZnMLuxMo87g4V2hb1UbITL2V8sMV7WFoar3y/vAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4L/ML3htPlH/dE2n6cKcXpaqNTyMqnRPLqOZKtjGjUH/AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4CQtXDwVFcvPi57anvUzQ+I3RfewtXTGt7GlFqAvhn+1AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4AH9gd15wLgFFv3wjMLq8KLSngXduS4Xx9RZmyZWK7KjAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4G+Xc2S8n4+5GQY/5q+ablXbpvf6uH/UVap7Y7qtLpf6AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Build)
+[8mha:////4I2BqUsurlBkgAnM8cr0sw7m9ebDyOr6sLFdnaV1APOKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] sh
++ make compile-oel7
+docker build  -f Dockerfile-oel7 \
+--build-arg NGINX_VERSION=1.18.0 \
+--build-arg OPENSSL_VERSION=1.1.1g \
+--build-arg PCRE_VERSION=10.34 \
+--build-arg ZLIB_VERSION=1.2.11 \
+--build-arg OS=el7 \
+--build-arg ARCH=x86_64 \
+        --build-arg DEST=/Local/ThirdParty \
+-t oel-nginx-oel7 .
+Sending build context to Docker daemon  434.7kB
+Step 1/20 : FROM oraclelinux:7.3
+ ---> d42df3cd808c
+Step 2/20 : ENV WORKDIR /tmp
+ ---> Using cache
+ ---> b2101f9637d2
+Step 3/20 : WORKDIR $WORKDIR
+ ---> Using cache
+ ---> 8b595a88ee1c
+Step 4/20 : ARG ARCH
+ ---> Using cache
+ ---> 98a69965faef
+Step 5/20 : ARG DEST
+ ---> Using cache
+ ---> 3577164868be
+Step 6/20 : ARG OS
+ ---> Using cache
+ ---> 8381bb9edc49
+Step 7/20 : ARG PCRE_VERSION
+ ---> Using cache
+ ---> 15621cdf404a
+Step 8/20 : ARG ZLIB_VERSION
+ ---> Using cache
+ ---> f1717fe4f23b
+Step 9/20 : ARG OPENSSL_VERSION
+ ---> Using cache
+ ---> d7ea640244a1
+Step 10/20 : ARG NGINX_VERSION
+ ---> Using cache
+ ---> ec6e08f28ba3
+Step 11/20 : RUN yum install -y file wget gcc gcc-c++ pcre-devel glibc-devel make perl mercurial which
+ ---> Using cache
+ ---> 4624838afeb4
+Step 12/20 : RUN cd $WORKDIR && wget ftp://ftp.pcre.org/pub/pcre/pcre2-10.34.tar.gz && tar zxf pcre2-10.34.tar.gz
+ ---> Using cache
+ ---> fa1591a74307
+Step 13/20 : RUN cd $WORKDIR && wget https://zlib.net/zlib-1.2.11.tar.gz && tar zxf zlib-$ZLIB_VERSION.tar.gz
+ ---> Using cache
+ ---> d6a0af8851e2
+Step 14/20 : RUN cd  $WORKDIR && wget https://www.openssl.org/source/openssl-1.1.1g.tar.gz && tar zxf openssl-$OPENSSL_VERSION.tar.gz
+ ---> Using cache
+ ---> 288c29f235f4
+Step 15/20 : RUN cd $WORKDIR && wget http://nginx.org/download/nginx-$NGINX_VERSION.tar.gz && tar zxf nginx-$NGINX_VERSION.tar.gz
+ ---> Using cache
+ ---> 99247e38da03
+Step 16/20 : RUN  cd $WORKDIR && hg clone http://hg.nginx.org/njs
+ ---> Using cache
+ ---> d4cef99f999c
+Step 17/20 : RUN cd $WORKDIR/nginx-$NGINX_VERSION && ./configure --prefix=$DEST/nginx --sbin-path=$DEST/nginx/nginx --conf-path=$DEST/nginx/conf/AOS-nginx.conf --error-log-path=$DEST/nginx/logs/AOS-error.log --pid-path=$DEST/nginx/runtime/nginx.pid --lock-path=$DEST/nginx/runtime/nginx.lock --with-zlib=../zlib-$ZLIB_VERSION --with-http_ssl_module --with-openssl=../openssl-$OPENSSL_VERSION --with-pcre=../pcre_$PCRE_VERSION --with-debug --with-http_auth_request_module --with-http_gzip_static_module --with-http_realip_module --with-http_stub_status_module --add-module=../njs/nginx && make && make install
+ ---> Running in 70c75f4cac80
+checking for OS
+ + Linux 5.4.0-37-generic x86_64
+checking for C compiler ... found
+ + using GNU C compiler
+ + gcc version: 4.8.5 20150623 (Red Hat 4.8.5-39.0.3) (GCC) 
+checking for gcc -pipe switch ... found
+checking for -Wl,-E switch ... found
+checking for gcc builtin atomic operations ... found
+checking for C99 variadic macros ... found
+checking for gcc variadic macros ... found
+checking for gcc builtin 64 bit byteswap ... found
+checking for unistd.h ... found
+checking for inttypes.h ... found
+checking for limits.h ... found
+checking for sys/filio.h ... not found
+checking for sys/param.h ... found
+checking for sys/mount.h ... found
+checking for sys/statvfs.h ... found
+checking for crypt.h ... found
+checking for Linux specific features
+checking for epoll ... found
+checking for EPOLLRDHUP ... found
+checking for EPOLLEXCLUSIVE ... not found
+checking for O_PATH ... found
+checking for sendfile() ... found
+checking for sendfile64() ... found
+checking for sys/prctl.h ... found
+checking for prctl(PR_SET_DUMPABLE) ... found
+checking for prctl(PR_SET_KEEPCAPS) ... found
+checking for capabilities ... found
+checking for crypt_r() ... found
+checking for sys/vfs.h ... found
+checking for nobody group ... found
+checking for poll() ... found
+checking for /dev/poll ... not found
+checking for kqueue ... not found
+checking for crypt() ... not found
+checking for crypt() in libcrypt ... found
+checking for F_READAHEAD ... not found
+checking for posix_fadvise() ... found
+checking for O_DIRECT ... found
+checking for F_NOCACHE ... not found
+checking for directio() ... not found
+checking for statfs() ... found
+checking for statvfs() ... found
+checking for dlopen() ... not found
+checking for dlopen() in libdl ... found
+checking for sched_yield() ... found
+checking for sched_setaffinity() ... found
+checking for SO_SETFIB ... not found
+checking for SO_REUSEPORT ... found
+checking for SO_ACCEPTFILTER ... not found
+checking for SO_BINDANY ... not found
+checking for IP_TRANSPARENT ... found
+checking for IP_BINDANY ... not found
+checking for IP_BIND_ADDRESS_NO_PORT ... found
+checking for IP_RECVDSTADDR ... not found
+checking for IP_SENDSRCADDR ... not found
+checking for IP_PKTINFO ... found
+checking for IPV6_RECVPKTINFO ... found
+checking for TCP_DEFER_ACCEPT ... found
+checking for TCP_KEEPIDLE ... found
+checking for TCP_FASTOPEN ... found
+checking for TCP_INFO ... found
+checking for accept4() ... found
+checking for eventfd() ... found
+checking for int size ... 4 bytes
+checking for long size ... 8 bytes
+checking for long long size ... 8 bytes
+checking for void * size ... 8 bytes
+checking for uint32_t ... found
+checking for uint64_t ... found
+checking for sig_atomic_t ... found
+checking for sig_atomic_t size ... 4 bytes
+checking for socklen_t ... found
+checking for in_addr_t ... found
+checking for in_port_t ... found
+checking for rlim_t ... found
+checking for uintptr_t ... uintptr_t found
+checking for system byte ordering ... little endian
+checking for size_t size ... 8 bytes
+checking for off_t size ... 8 bytes
+checking for time_t size ... 8 bytes
+checking for AF_INET6 ... found
+checking for setproctitle() ... not found
+checking for pread() ... found
+checking for pwrite() ... found
+checking for pwritev() ... found
+checking for sys_nerr ... found
+checking for localtime_r() ... found
+checking for clock_gettime(CLOCK_MONOTONIC) ... found
+checking for posix_memalign() ... found
+checking for memalign() ... found
+checking for mmap(MAP_ANON|MAP_SHARED) ... found
+checking for mmap("/dev/zero", MAP_SHARED) ... found
+checking for System V shared memory ... found
+checking for POSIX semaphores ... not found
+checking for POSIX semaphores in libpthread ... found
+checking for struct msghdr.msg_control ... found
+checking for ioctl(FIONBIO) ... found
+checking for ioctl(FIONREAD) ... found
+checking for struct tm.tm_gmtoff ... found
+checking for struct dirent.d_namlen ... not found
+checking for struct dirent.d_type ... found
+checking for sysconf(_SC_NPROCESSORS_ONLN) ... found
+checking for sysconf(_SC_LEVEL1_DCACHE_LINESIZE) ... found
+checking for openat(), fstatat() ... found
+checking for getaddrinfo() ... found
+configuring additional modules
+adding module in ../njs/nginx
+ + ngx_js_module was configured
+creating objs/Makefile
+
+Configuration summary
+  + using PCRE library: ../pcre_10.34
+  + using OpenSSL library: ../openssl-1.1.1g
+  + using zlib library: ../zlib-1.2.11
+
+  nginx path prefix: "/Local/ThirdParty/nginx"
+  nginx binary file: "/Local/ThirdParty/nginx/nginx"
+  nginx modules path: "/Local/ThirdParty/nginx/modules"
+  nginx configuration prefix: "/Local/ThirdParty/nginx/conf"
+  nginx configuration file: "/Local/ThirdParty/nginx/conf/AOS-nginx.conf"
+  nginx pid file: "/Local/ThirdParty/nginx/runtime/nginx.pid"
+  nginx error log file: "/Local/ThirdParty/nginx/logs/AOS-error.log"
+  nginx http access log file: "/Local/ThirdParty/nginx/logs/access.log"
+  nginx http client request body temporary files: "client_body_temp"
+  nginx http proxy temporary files: "proxy_temp"
+  nginx http fastcgi temporary files: "fastcgi_temp"
+  nginx http uwsgi temporary files: "uwsgi_temp"
+  nginx http scgi temporary files: "scgi_temp"
+
+make -f objs/Makefile
+make[1]: Entering directory `/tmp/nginx-1.18.0'
+cd ../pcre_10.34 \
+&& if [ -f Makefile ]; then make distclean; fi \
+&& CC="cc" CFLAGS="-O2 -fomit-frame-pointer -pipe " \
+./configure --disable-shared 
+[91m/bin/sh: line 0: cd: ../pcre_10.34: No such file or directory
+[0m[91mmake[1]: *** [../pcre_10.34/Makefile] Error 1
+[0mmake[1]: Leaving directory `/tmp/nginx-1.18.0'
+[91mmake: *** [build] Error 2
+[0mThe command '/bin/sh -c cd $WORKDIR/nginx-$NGINX_VERSION && ./configure --prefix=$DEST/nginx --sbin-path=$DEST/nginx/nginx --conf-path=$DEST/nginx/conf/AOS-nginx.conf --error-log-path=$DEST/nginx/logs/AOS-error.log --pid-path=$DEST/nginx/runtime/nginx.pid --lock-path=$DEST/nginx/runtime/nginx.lock --with-zlib=../zlib-$ZLIB_VERSION --with-http_ssl_module --with-openssl=../openssl-$OPENSSL_VERSION --with-pcre=../pcre_$PCRE_VERSION --with-debug --with-http_auth_request_module --with-http_gzip_static_module --with-http_realip_module --with-http_stub_status_module --add-module=../njs/nginx && make && make install' returned a non-zero code: 2
+make: *** [Makefile:38: compile-oel7] Error 2
+[8mha:////4B8judXoj/d6ExlI9wK3XFXAf/4nkDc7A5uKVrxQYQSjAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N7BnLt++AAAA[0m[Pipeline] }
+[8mha:////4HN5S/RuN4LPHFWGi61vZTEh+ad3suk6kNv9X6i/QNR4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4glvS6+AAAA[0m[Pipeline] // stage
+[8mha:////4Iq7lVUgt4xHIBJuiTtFM0V9F+u+ACW7JUHYnrEGhvpvAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUnRgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9ANydZ8vCAAAA[0m[Pipeline] stage
+[8mha:////4EgDkPrD6KnIbotAOsdR6lcvdvUEDRhn5x+y1UNOqFkYAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4Npqzu9z6Rz9MghkG8+FoZJ92wVbDCE3lKVI2ZsCRb7oAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] echo
+This is a post action
+[8mha:////4EjnTmkExsWKhYKfvhaUW/Qj+rlzVQ9J8THEM0od1UkTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AEWNdkpvgAAAA==[0m[Pipeline] }
+[8mha:////4MdUIbxKBlXV+ZFqS1nM8ynO92YKJ2hWI66PcxMjjewUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0FAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEi+zpyvgAAAA==[0m[Pipeline] // stage
+[8mha:////4EtJ92dJH0b1uZUJVdqiu/2J4HgfG2SCAhU7aqoha8SzAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJR0iIqWisNLzCxMU6sO8e+kFS8iK/xBywiUbHFamebeb1hmyKcKFrRGxwcps6J4Cebl5gpDjdPs+jpKjrCRN6I1swtaXNesSU2sKYoYSNhZ7DzlBxahr3s1UNVXqGtLhzzd5RQOj3CEwqZzawif2GJcLhPOhH+PH8FsITAUDZNrrr+ALkszR2+AAAA[0m[Pipeline] }
+[8mha:////4KNwet5UOQR3gB907BoXbRaPeXv427xCk5nu/C4ETPFhAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrk/5NptP4rPlqG+AAAA[0m[Pipeline] // withEnv
+[8mha:////4KTCLEk0mctnHwRS7mlOQizi3OMXMf3sxY0r8fwQI++EAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6Ikhs04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwA6/9Rob0AAAA=[0m[Pipeline] }
+[8mha:////4A4b6HFxjCguP8YWvKTQWSBTFruQ23F8w3dT12WalhUsAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP+ENVAr0AAAA=[0m[Pipeline] // node
+[8mha:////4FxmUKYLhNe2n84Z2JCkM5eUrq18oubOyBwD3okk4gw+AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkDC7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHvgnyMr0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 2
+Finished: FAILURE

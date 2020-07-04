@@ -1,0 +1,33 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.5">
+  <node class="cps.n.StepEndNode" plugin="workflow-cps@2.80">
+    <parentIds>
+      <string>23</string>
+    </parentIds>
+    <id>24</id>
+    <startId>4</startId>
+  </node>
+  <actions>
+    <wf.a.BodyInvocationAction plugin="workflow-api@2.40"/>
+    <wf.a.TimingAction plugin="workflow-api@2.40">
+      <startTime>1593810396057</startTime>
+    </wf.a.TimingAction>
+    <wf.a.ErrorAction plugin="workflow-api@2.40">
+      <error class="hudson.AbortException">
+        <detailMessage>No artifacts found that match the file pattern &quot;nginx-1.18.0-el7-x86_64.tar.gz&quot;. Configuration error?</detailMessage>
+        <stackTrace>
+          <trace>hudson.tasks.ArtifactArchiver.perform(ArtifactArchiver.java:275)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.CoreStep$Execution.run(CoreStep.java:80)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.CoreStep$Execution.run(CoreStep.java:67)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)</trace>
+          <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)</trace>
+          <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)</trace>
+          <trace>java.base/java.lang.Thread.run(Thread.java:834)</trace>
+        </stackTrace>
+        <suppressedExceptions class="empty-list"/>
+      </error>
+    </wf.a.ErrorAction>
+  </actions>
+</Tag>

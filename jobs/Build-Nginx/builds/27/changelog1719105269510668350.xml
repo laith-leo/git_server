@@ -1,0 +1,36 @@
+commit 830c832acf865c4c6586b682710b36f400ccd727
+tree a66e97f2fcdf09ecf0aa44da98d17c33e6dffd25
+parent 9ba1bd78f56835deb627c9f8ff7f499c9fddf72b
+author Laith Leo <laith@laith.info> 2020-06-22 11:15:33 -0500
+committer GitHub <noreply@github.com> 2020-06-22 11:15:33 -0500
+
+    Update Makefile
+
+:100644 100644 ab14049af99ae9008251ac51a31233c207271d94 066b801dfd0efb3a9d79bf9b0fea2d457c458529 M	Makefile
+commit 9ba1bd78f56835deb627c9f8ff7f499c9fddf72b
+tree 57ca1a2bff7a92ca8d81a52b63d6031a9536ee69
+parent 15584ca2be54532548aaa0134314db310f38d1a2
+author Laith Leo <laith@laith.info> 2020-06-22 11:14:20 -0500
+committer GitHub <noreply@github.com> 2020-06-22 11:14:20 -0500
+
+    Rename Dockerfile-oel7 to Dockerfile-centos7
+
+:100644 100644 7b3d14adb233cceffd7933c0c41ab70916eb089f 7b3d14adb233cceffd7933c0c41ab70916eb089f R100	Dockerfile-oel7	Dockerfile-centos7
+commit 15584ca2be54532548aaa0134314db310f38d1a2
+tree 273e539cbca69160639affc8aea24b2448e39f3d
+parent 610508cd1ed8d6cb1e1e31954fa99a41555118d6
+author Laith Leo <laith@laith.info> 2020-06-22 11:13:55 -0500
+committer GitHub <noreply@github.com> 2020-06-22 11:13:55 -0500
+
+    Update Makefile
+
+:100644 100644 0cd3c594d1f0690ec510b6a25d0c6d83d98006fc ab14049af99ae9008251ac51a31233c207271d94 M	Makefile
+commit 610508cd1ed8d6cb1e1e31954fa99a41555118d6
+tree 8e53161972bb9cb4a64d4d6214e582ab3436f792
+parent 7e75d32fa6596dbe4ffae9774f81e4d0c94a7e78
+author Laith Leo <laith@laith.info> 2020-06-22 11:12:57 -0500
+committer GitHub <noreply@github.com> 2020-06-22 11:12:57 -0500
+
+    Update Makefile
+
+:100644 100644 559675cf906ec6ae2bb877f6c64343e91828b488 0cd3c594d1f0690ec510b6a25d0c6d83d98006fc M	Makefile

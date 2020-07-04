@@ -1,0 +1,41 @@
+Started
+[Sat Jul 04 11:35:55 CDT 2020] Starting organization scan...
+[Sat Jul 04 11:35:55 CDT 2020] Updating actions...
+Looking up details of ...
+ERROR: [Sat Jul 04 11:35:55 CDT 2020] Could not refresh actions for navigator org.jenkinsci.plugins.github_branch_source.GitHubSCMNavigator@29a52cd
+java.io.FileNotFoundException: https://api.github.com/users/
+	at org.kohsuke.github.extras.okhttp3.ObsoleteUrlFactory$OkHttpURLConnection.getInputStream(ObsoleteUrlFactory.java:488)
+	at org.kohsuke.github.extras.okhttp3.ObsoleteUrlFactory$DelegatingHttpsURLConnection.getInputStream(ObsoleteUrlFactory.java:1201)
+	at org.kohsuke.github.GitHubHttpUrlConnectionClient$HttpURLConnectionResponseInfo.bodyStream(GitHubHttpUrlConnectionClient.java:197)
+	at org.kohsuke.github.GitHubResponse$ResponseInfo.getBodyAsString(GitHubResponse.java:321)
+	at org.kohsuke.github.GitHubResponse.parseBody(GitHubResponse.java:86)
+	at org.kohsuke.github.Requester.lambda$fetch$1(Requester.java:74)
+	at org.kohsuke.github.GitHubClient.createResponse(GitHubClient.java:425)
+	at org.kohsuke.github.GitHubClient.sendRequest(GitHubClient.java:376)
+Caused: org.kohsuke.github.GHFileNotFoundException: https://api.github.com/users/ {"message":"Not Found","documentation_url":"https://developer.github.com/v3"}
+	at org.kohsuke.github.GitHubClient.interpretApiError(GitHubClient.java:456)
+	at org.kohsuke.github.GitHubClient.sendRequest(GitHubClient.java:384)
+	at org.kohsuke.github.GitHubClient.sendRequest(GitHubClient.java:327)
+	at org.kohsuke.github.Requester.fetch(Requester.java:74)
+	at org.kohsuke.github.GitHub.getUser(GitHub.java:447)
+	at org.jenkinsci.plugins.github_branch_source.GitHubSCMNavigator.retrieveActions(GitHubSCMNavigator.java:1224)
+	at jenkins.scm.api.SCMNavigator.fetchActions(SCMNavigator.java:332)
+	at jenkins.branch.OrganizationFolder.computeChildren(OrganizationFolder.java:441)
+	at com.cloudbees.hudson.plugins.folder.computed.ComputedFolder.updateChildren(ComputedFolder.java:278)
+	at com.cloudbees.hudson.plugins.folder.computed.FolderComputation.run(FolderComputation.java:165)
+	at jenkins.branch.OrganizationFolder$OrganizationScan.run(OrganizationFolder.java:971)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:428)
+[Sat Jul 04 11:35:55 CDT 2020] Consulting GitHub Organization
+ERROR: [Sat Jul 04 11:35:55 CDT 2020] Could not fetch sources from navigator org.jenkinsci.plugins.github_branch_source.GitHubSCMNavigator@29a52cd
+hudson.AbortException: Must specify user or organization
+	at org.jenkinsci.plugins.github_branch_source.GitHubSCMNavigator.visitSources(GitHubSCMNavigator.java:909)
+	at jenkins.branch.OrganizationFolder.computeChildren(OrganizationFolder.java:490)
+	at com.cloudbees.hudson.plugins.folder.computed.ComputedFolder.updateChildren(ComputedFolder.java:278)
+	at com.cloudbees.hudson.plugins.folder.computed.FolderComputation.run(FolderComputation.java:165)
+	at jenkins.branch.OrganizationFolder$OrganizationScan.run(OrganizationFolder.java:971)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:428)
+[Sat Jul 04 11:35:55 CDT 2020] Finished organization scan. Scan took 0.23 sec
+FATAL: Must specify user or organization
+Finished: FAILURE

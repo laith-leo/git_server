@@ -1,0 +1,39 @@
+Started by user [8mha:////4BBLfwe7IeHcUIFGzlk8aXPWaLVvsbNgvOjifPDozzbBAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CKgGZklGQD59NTzwAAAAA==[0mlaith
+[Fri Jul 03 16:15:48 CDT 2020] Starting branch indexing...
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub username and password
+ > git ls-remote --symref -- https://github.com/laith-leo/nginx-compile.git # timeout=10
+ > git rev-parse --is-inside-work-tree # timeout=10
+Setting origin to https://github.com/laith-leo/nginx-compile.git
+ > git config remote.origin.url https://github.com/laith-leo/nginx-compile.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub username and password
+ > git ls-remote -h -- https://github.com/laith-leo/nginx-compile.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+using GIT_ASKPASS to set credentials GitHub username and password
+ > git fetch --tags --force --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch master
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: master (still at 4db8ef9767152a6cc0c2e37bf9e77bd5475b125b)
+  Checking branch test
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: test (still at 4f5debd0e231c89015f5c5676f1f93ce4bfeed39)
+  Checking branch 19
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: 19 (eb736e55ddcae5c44232c6dfce4ea3c9d03a96b3 → ea5f0222f3cb74fde4ba34d42540569a324537e7)
+Scheduled build for branch: 19
+  Checking branch dev
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: dev (still at 26eb5372e2e2020508707c6861470cf123881405)
+Processed 4 branches
+[Fri Jul 03 16:15:50 CDT 2020] Finished branch indexing. Indexing took 1.2 sec
+Finished: SUCCESS

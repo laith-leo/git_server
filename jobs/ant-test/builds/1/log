@@ -1,0 +1,25 @@
+Started by user [8mha:////4BBLfwe7IeHcUIFGzlk8aXPWaLVvsbNgvOjifPDozzbBAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CKgGZklGQD59NTzwAAAAA==[0mlaith
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/ant-test
+using credential 2f08b1ee-fc58-4cc3-a055-9c57491c6e3c
+Cloning the remote Git repository
+Cloning repository https://github.com/laith-leo/some_java.git
+ > git init /var/lib/jenkins/workspace/ant-test # timeout=10
+Fetching upstream changes from https://github.com/laith-leo/some_java.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub username and password
+ > git fetch --tags --force --progress -- https://github.com/laith-leo/some_java.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/laith-leo/some_java.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/laith-leo/some_java.git # timeout=10
+Fetching upstream changes from https://github.com/laith-leo/some_java.git
+using GIT_ASKPASS to set credentials GitHub username and password
+ > git fetch --tags --force --progress -- https://github.com/laith-leo/some_java.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 5e08e9fb8ca6f3b1013c152e671cdb0af9dbbcf6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5e08e9fb8ca6f3b1013c152e671cdb0af9dbbcf6 # timeout=10
+Commit message: "corrected ant install and junit missing"
+First time build. Skipping changelog.
+Finished: SUCCESS

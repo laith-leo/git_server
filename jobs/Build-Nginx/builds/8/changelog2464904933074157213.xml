@@ -1,0 +1,27 @@
+commit 77537f5cd047f1e5d377cf2fb6d000c4402c7763
+tree 8ae64aa69d4cb5cfa60627ecf83d722bf2e6ac96
+parent 9b135b170613bce2907b136024dddcb133b7403d
+author Laith Leo <laith@laith.info> 2020-06-20 18:40:28 -0500
+committer GitHub <noreply@github.com> 2020-06-20 18:40:28 -0500
+
+    Update Jenkinsfile
+
+:100644 100644 fa14537ec1a52a50a52bfeebe242f7a1420216d2 14a73aedd799ac79122815b2aae3daf46e19dc9a M	Jenkinsfile
+commit 9b135b170613bce2907b136024dddcb133b7403d
+tree cbdf528e1aaadc5a2ceba1ad8110a43e720d6a76
+parent 3b9729b95100210e17058fc70afdefdcba34bcaf
+author Laith Leo <laith@laith.info> 2020-06-20 18:39:27 -0500
+committer GitHub <noreply@github.com> 2020-06-20 18:39:27 -0500
+
+    Update Jenkinsfile
+
+:100644 100644 0635c3fee297bb1d70fd74bc2b387e42afccf025 fa14537ec1a52a50a52bfeebe242f7a1420216d2 M	Jenkinsfile
+commit 3b9729b95100210e17058fc70afdefdcba34bcaf
+tree 2bccce55174ac2dae4ad5bd4583b232bf38fb6df
+parent b26b73a9f61581d6f5e856c23179905a45022c98
+author Laith Leo <laith@laith.info> 2020-06-20 18:37:36 -0500
+committer GitHub <noreply@github.com> 2020-06-20 18:37:36 -0500
+
+    Update Jenkinsfile
+
+:100644 100644 62d34262474ec156a5dd0c8d7b332a53be687550 0635c3fee297bb1d70fd74bc2b387e42afccf025 M	Jenkinsfile

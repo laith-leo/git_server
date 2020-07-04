@@ -1,0 +1,7 @@
+Started by user [8mha:////4BBLfwe7IeHcUIFGzlk8aXPWaLVvsbNgvOjifPDozzbBAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CKgGZklGQD59NTzwAAAAA==[0mlaith
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/triggers/echo1
+[echo1] $ /bin/sh -xe /tmp/jenkins3222486322267048425.sh
++ echo Howdy Laith
+Triggering a new build of [8mha:////4ASbGU2Kn+qaFhuv2BRk+xJ1Do+XJiX7fgvfbjWbCqacAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgYJ/az8JH2g5vT01KJiMCc1OSPfSB8AUoSzK80AAAA=[0mtrigger » echo2
+Finished: SUCCESS

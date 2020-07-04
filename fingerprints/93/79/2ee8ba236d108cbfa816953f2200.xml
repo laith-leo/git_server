@@ -1,0 +1,35 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-06-24 01:52:00.254 UTC</timestamp>
+  <md5sum>93792ee8ba236d108cbfa816953f2200</md5sum>
+  <fileName>Credential id=2f08b1ee-fc58-4cc3-a055-9c57491c6e3c name=laith-leo/****** (GitHub username and password)</fileName>
+  <usages>
+    <entry>
+      <string>Build-Nginx</string>
+      <ranges>32-42</ranges>
+    </entry>
+    <entry>
+      <string>multibranch/19</string>
+      <ranges>1-4</ranges>
+    </entry>
+    <entry>
+      <string>Laith&apos;s stuff/test-1</string>
+      <ranges>114-124</ranges>
+    </entry>
+    <entry>
+      <string>multibranch/test</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>multibranch/dev</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.3.9">
+      <timestamp>1593761401834</timestamp>
+      <itemFullName>Build-Nginx</itemFullName>
+      <timestamp0>1593761266650</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

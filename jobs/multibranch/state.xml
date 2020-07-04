@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.5.6">
+  <sourceActions>
+    <entry>
+      <string>7664a6cd-cc3f-473f-b080-2538ecaeedb1</string>
+      <list>
+        <jenkins.plugins.git.GitRemoteHeadRefAction plugin="git@4.3.0">
+          <remote>https://github.com/laith-leo/nginx-compile.git</remote>
+          <name>master</name>
+        </jenkins.plugins.git.GitRemoteHeadRefAction>
+      </list>
+    </entry>
+  </sourceActions>
+</jenkins.branch.MultiBranchProject_-State>

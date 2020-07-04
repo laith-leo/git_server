@@ -1,0 +1,6 @@
+Started by user [8mha:////4BBLfwe7IeHcUIFGzlk8aXPWaLVvsbNgvOjifPDozzbBAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CKgGZklGQD59NTzwAAAAA==[0mlaith
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Laith's stuff/test
+[test] $ /bin/sh -xe /tmp/jenkins18429986205914375337.sh
++ ls
+Finished: SUCCESS

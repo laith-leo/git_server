@@ -1,0 +1,9 @@
+commit c74f6528df54166ffcd544fabbef9cff0fc4e522
+tree 7987fdd204b1fef36e8bcd901c1c68db4c6ad629
+parent bb2210c2e54931ee5dd02fec9738ebcd5620970a
+author Laith Leo <laith@laith.info> 2020-06-22 10:49:41 -0500
+committer GitHub <noreply@github.com> 2020-06-22 10:49:41 -0500
+
+    Switching to CentOS 7.7
+
+:100644 100644 2671a84166cf8db48c1cb8bd23443747e7cf2d7f 792a3a9eb38afdaa40a9752212f4df09706931e6 M	Dockerfile-oel7

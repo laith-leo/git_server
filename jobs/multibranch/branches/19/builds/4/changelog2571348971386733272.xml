@@ -1,0 +1,9 @@
+commit ea5f0222f3cb74fde4ba34d42540569a324537e7
+tree 3b651868c0005666937dee8054940ad6c9acd45b
+parent eb736e55ddcae5c44232c6dfce4ea3c9d03a96b3
+author Laith Leo <laith@laith.info> 2020-07-03 16:06:20 -0500
+committer GitHub <noreply@github.com> 2020-07-03 16:06:20 -0500
+
+    Update Jenkinsfile
+
+:100644 100644 a127a155b2e7e1e72d467314b9b118137af715c1 13e22719cf4fb1b29ae9f1a978692600a5e83c16 M	Jenkinsfile

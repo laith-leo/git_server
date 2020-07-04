@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jieshe
+Build-Jdk: 1.8.0_231
+Extension-Name: kubernetes-cd
+Specification-Title: A Jenkins plugin to deploy configurations to Kube
+ rnetes cluster.
+Implementation-Title: kubernetes-cd
+Implementation-Version: 2.3.0
+Plugin-Class: com.microsoft.jenkins.kubernetes.KubernetesCDPlugin
+Group-Id: org.jenkins-ci.plugins
+Short-Name: kubernetes-cd
+Long-Name: Kubernetes Continuous Deploy Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Kubernetes+Continuous
+ +Deploy+Plugin
+Compatible-Since-Version: 1.0.0
+Minimum-Java-Version: 1.8
+Plugin-Version: 2.3.0
+Hudson-Version: 2.60.3
+Jenkins-Version: 2.60.3
+Mask-Classes: okhttp3.                        okio.                   
+      com.microsoft.jenkins.azurecommons.core.                        
+ com.google.
+Plugin-Dependencies: workflow-step-api:2.10,azure-commons:1.0.4,creden
+ tials-binding:1.16,credentials:2.1.14,docker-commons:1.10,ssh-credent
+ ials:1.13
+Plugin-Developers: Azure DevOps Team:azure_devops:vscjenkins@microsoft
+ .com
+

@@ -1,0 +1,8 @@
+Started by upstream project "[8mha:////4F6tz+Zu0a1i2tFmN7uuJ98VKn2VXwC2KP4Y9pWFo1KsAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/az8JH2g5vT01KJiMCc1OSPfUB8AjCorAc0AAAA=[0mtriggers/echo1" build number [8mha:////4NCgCbTUq961weD5A/fpuDluVqBKYV2MfNeK/cuOyWMAAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkn9rPwkfaDm9PTUomIwJzU5I99Q3xAAHmF03M4AAAA=[0m1
+originally caused by:
+ Started by user [8mha:////4BBLfwe7IeHcUIFGzlk8aXPWaLVvsbNgvOjifPDozzbBAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CKgGZklGQD59NTzwAAAAA==[0mlaith
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/triggers/echo2
+[echo2] $ /bin/sh -xe /tmp/jenkins8120942492726336110.sh
++ echo I'm doing great!
+Finished: SUCCESS

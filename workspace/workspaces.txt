@@ -1,0 +1,8 @@
+cicd k8s/dependabot%2Fnpm_and_yarn%2Fnpm-6.13.4
+pendabot_npm_and_yarn_npm-6.13.4
+cicd k8s/example-solution
+cicd_k8s_example-solution
+cicd k8s/master
+cicd_k8s_master
+multibranch/test
+multibranch_test
