@@ -23,11 +23,11 @@
     </parent>
 
     <artifactId>artifactory</artifactId>
-    <version>3.6.2</version>
+    <version>3.7.0</version>
     <packaging>hpi</packaging>
     <name>Jenkins Artifactory Plugin</name>
     <description>Integrates Artifactory to Jenkins</description>
-    <url>http://wiki.jenkins-ci.org/display/JENKINS/Artifactory+Plugin</url>
+    <url>https://wiki.jenkins-ci.org/display/JENKINS/Artifactory+Plugin</url>
 
     <properties>
         <!-- Minimal version required by Pipeline dependencies in 2.14.0 -->
@@ -39,12 +39,12 @@
         <!--Skip integration tests unless explicitly requested with -DskipITs=false-->
         <skipITs>true</skipITs>
 
-        <buildinfo.version>2.17.1</buildinfo.version>
-        <buildinfo.maven3.version>2.17.1</buildinfo.maven3.version>
-        <buildinfo.gradle.version>4.15.1</buildinfo.gradle.version>
-        <buildinfo.ivy.version>2.17.1</buildinfo.ivy.version>
-        <buildinfo.npm.version>2.17.1</buildinfo.npm.version>
-        <buildinfo.go.version>2.17.1</buildinfo.go.version>
+        <buildinfo.version>2.18.0</buildinfo.version>
+        <buildinfo.maven3.version>2.18.0</buildinfo.maven3.version>
+        <buildinfo.gradle.version>4.16.0</buildinfo.gradle.version>
+        <buildinfo.ivy.version>2.18.0</buildinfo.ivy.version>
+        <buildinfo.npm.version>2.18.0</buildinfo.npm.version>
+        <buildinfo.go.version>2.18.0</buildinfo.go.version>
 
     </properties>
 
@@ -61,18 +61,18 @@
 
     <organization>
         <name>JFrog</name>
-        <url>http://www.jfrog.org</url>
+        <url>https://jfrog.com</url>
     </organization>
 
     <issueManagement>
         <system>jira</system>
-        <url>http://issues.jfrog.org/jira/browse/HAP</url>
+        <url>https://www.jfrog.com/jira/browse/HAP</url>
     </issueManagement>
 
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
@@ -488,6 +488,12 @@
             <version>2.6.2</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.mock-server</groupId>
+            <artifactId>mockserver-netty</artifactId>
+            <version>5.10.0</version>
+            <scope>test</scope>
+        </dependency>
         <!--/Tests-->
     </dependencies>
 
@@ -620,13 +626,13 @@
                 <repository>
                     <id>central</id>
                     <name>jfrog-dependencies</name>
-                    <url>http://oss.jfrog.org/artifactory/jfrog-dependencies</url>
+                    <url>https://oss.jfrog.org/artifactory/jfrog-dependencies</url>
                 </repository>
                 <repository>
                     <snapshots />
                     <id>snapshots</id>
                     <name>libs-snapshot</name>
-                    <url>http://oss.jfrog.org/artifactory/libs-snapshot</url>
+                    <url>https://oss.jfrog.org/artifactory/libs-snapshot</url>
                 </repository>
             </repositories>
             <pluginRepositories>
@@ -636,22 +642,15 @@
                     </snapshots>
                     <id>central</id>
                     <name>jfrog-dependencies</name>
-                    <url>http://oss.jfrog.org/artifactory/jfrog-dependencies</url>
+                    <url>https://oss.jfrog.org/artifactory/jfrog-dependencies</url>
                 </pluginRepository>
                 <pluginRepository>
                     <snapshots />
                     <id>snapshots</id>
                     <name>plugins-snapshot</name>
-                    <url>http://oss.jfrog.org/artifactory/plugins-snapshot</url>
+                    <url>https://oss.jfrog.org/artifactory/plugins-snapshot</url>
                 </pluginRepository>
             </pluginRepositories>
         </profile>
     </profiles>
-
-    <distributionManagement>
-        <repository>
-            <id>maven.jenkins-ci.org</id>
-            <url>http://maven.jenkins-ci.org:8081/content/repositories/releases/</url>
-        </repository>
-    </distributionManagement>
 </project>
